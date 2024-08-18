@@ -4578,6 +4578,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/cli-data-migrate@npm:7.7.4":
+  version: 7.7.4
+  resolution: "@redwoodjs/cli-data-migrate@npm:7.7.4"
+  dependencies:
+    "@redwoodjs/babel-config": "npm:7.7.4"
+    "@redwoodjs/project-config": "npm:7.7.4"
+    chalk: "npm:4.1.2"
+    dotenv-defaults: "npm:5.0.2"
+    execa: "npm:5.1.1"
+    fs-extra: "npm:11.2.0"
+    listr2: "npm:6.6.1"
+    terminal-link: "npm:2.1.1"
+    yargs: "npm:17.7.2"
+  bin:
+    up: dist/bin.js
+  checksum: 10c0/c275e4cfda515520d585d497cfa5253e535fd0e6f891e36119522eff7210a7f3a8cdec6d4e0590a445e975b7d362c92de9b2b75403b254152b55a3bb9d78b07a
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/cli-helpers@npm:7.7.4":
   version: 7.7.4
   resolution: "@redwoodjs/cli-helpers@npm:7.7.4"
@@ -18148,6 +18167,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/auth-dbauth-setup": "npm:7.7.4"
+    "@redwoodjs/cli-data-migrate": "npm:7.7.4"
     "@redwoodjs/core": "npm:7.7.4"
     "@redwoodjs/project-config": "npm:7.7.4"
   languageName: unknown
